@@ -32,18 +32,18 @@ public class MonotonicArray {
         int size = scanner.nextInt();
         int[] numbers = new int[size];
         System.out.print("Enter Numbers in Array : ");
+        int j=0;
         for (int number : numbers){
-            number = scanner.nextInt();
+            numbers[j++] = scanner.nextInt();
         }
 
-        boolean isMonotone = monotonicArray.checkMonotone(numbers);
-        if(isMonotone)
+        if(monotonicArray.isMonotone(numbers))
             System.out.println("Array is Monotonic.");
         else
             System.out.println("Array is NOT Monotonic.");
     }
 
-    private boolean checkMonotone(int[] numbers){
+    private boolean isMonotone(int[] numbers){
         boolean increasing = true, decreasing = true;
 
         for (int i=0 ; i < numbers.length-1 ; i++){
