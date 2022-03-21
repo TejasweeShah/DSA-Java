@@ -27,7 +27,7 @@ public class ShuffleArray {
         Scanner scanner = new Scanner(System.in);
         ShuffleArray obj = new ShuffleArray();
 
-        System.out.print("Enter vale for 'n' : ");
+        System.out.print("Enter value for 'n' : ");
         int n = scanner.nextInt();
         int[] numbers = new int[2 * n];  // size of array if 2n
         System.out.print("Enter "+ (2 * n) +" Numbers in Array : ");
@@ -35,7 +35,7 @@ public class ShuffleArray {
             numbers[i] = scanner.nextInt();
         }
 
-        int[] result = obj.shuffleArray(numbers,n);
+        int[] result = obj.shuffleArray1(numbers,n);
         System.out.println("Shuffled Array is : "+ Arrays.toString(result));
     }
 
@@ -52,5 +52,22 @@ public class ShuffleArray {
             cnt2++;
         }
         return newNumbers;
+    }
+
+    // better way
+    private int[] shuffleArray1(int[] numbers, int n) {
+
+        int cnt1=0, cnt2=n;
+        while(cnt1 < n){
+
+            if(cnt1 % 2 != 0){
+                int temp = numbers[cnt1];
+                numbers[cnt1] = numbers[cnt2];
+                numbers[cnt2] = temp;
+            }
+            cnt1=cnt1+1;
+            cnt2 = cnt2+1;
+        }
+        return numbers;
     }
 }
