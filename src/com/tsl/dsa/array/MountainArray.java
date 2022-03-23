@@ -1,8 +1,9 @@
-package com.tsl.basics.array;
+package com.tsl.dsa.array;
 
 import java.util.Scanner;
 
 /*
+        Leet Code : 941 Valid Mountain Array
 Given an array of integers arr, return true if and only if it is a valid mountain array.
 Recall that arr is a mountain array if and only if:
 Constraints:

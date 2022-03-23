@@ -1,4 +1,4 @@
-package com.tsl.basics.searching;
+package com.tsl.dsa.linearsearch;
 
 import java.util.Arrays;
 import java.util.Scanner;

@@ -1,4 +1,4 @@
-package com.tsl.basics;
+package com.tsl.dsa;
 
 import java.util.Scanner;
 

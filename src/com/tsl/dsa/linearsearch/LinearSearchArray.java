@@ -1,4 +1,4 @@
-package com.tsl.basics.searching;
+package com.tsl.dsa.linearsearch;
 
 /*
 Linear Search : Search for a number in given array.
