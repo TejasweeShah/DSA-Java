@@ -1,4 +1,4 @@
-package com.tsl.dsa.array;
+package com.codewithteju.dsa.array;
 
 /*
         Leet Code : 1295. Find Numbers with Even Number of Digits

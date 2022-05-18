@@ -1,4 +1,4 @@
-package com.tsl.dsa.array;
+package com.codewithteju.dsa.array;
 
 /*
         Leet Code : 88. Merge Sorted Array

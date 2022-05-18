@@ -1,4 +1,4 @@
-package com.tsl.dsa.array;
+package com.codewithteju.dsa.array;
 
 import java.util.Scanner;
 

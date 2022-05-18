@@ -1,4 +1,4 @@
-package com.tsl.dsa.linearsearch;
+package com.codewithteju.dsa.linearsearch;
 
 import java.util.Arrays;
 import java.util.Scanner;

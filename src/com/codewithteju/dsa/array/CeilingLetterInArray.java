@@ -1,4 +1,4 @@
-package com.tsl.dsa.array;
+package com.codewithteju.dsa.array;
 
  /*         Leet Code : 744. Find the Smallest Letter Greater Than Target
 

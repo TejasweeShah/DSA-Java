@@ -1,6 +1,4 @@
-package com.tsl.dsa.array;
-
-import com.tsl.dsa.binarysearch.BinarySearchArray;
+package com.codewithteju.dsa.array;
 
 import java.util.Scanner;
  /*

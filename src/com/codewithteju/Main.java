@@ -1,4 +1,4 @@
-package com.tsl;
+package com.codewithteju;
 
 import java.util.Scanner;
 
